@@ -1,0 +1,16 @@
+.container {  
+   margin: 0 auto; 
+   display: flex;
+   width: 40%;
+   flex-wrap: wrap;
+}
+.square {
+   box-sizing: border-box;
+   border: 1px solid black;
+   background-color: rgb(85, 171, 182);
+   width: 25%;
+   aspect-ratio: 1/1;
+}
+.square-hover {
+   background-color: rgb(163, 195, 199);
+}
