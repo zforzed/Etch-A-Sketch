@@ -1,3 +1,19 @@
+body {
+   text-align: center;
+}
+
+button {
+   font-size: 14px;
+   width: 10vh;
+   height: 3vh;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(252, 165, 125);
+   margin: 5px;
+}
+button:hover {
+   background-color: rgb(255, 213, 196);
+}
 .container {  
    margin: 0 auto; 
    display: flex;
